@@ -1,0 +1,93 @@
+.main{
+    background-image: url('https://www.evangadi.com/themes/humans/assets/images/misc/bg-svg-f.svg');
+    /* background-image: url('../../../assets/img/bg-svg-f.svg'); */
+    background-size: cover;
+    background-color: #f8f8f8;
+    /* height: 580px; */
+    padding: 110px 0 0 ;
+
+}
+/* .login__c{
+padding-left: 150px;
+} */
+
+.login__form{
+    background: #fff;
+    border-radius: 6px;
+    padding: 40px 40px 100px;
+}
+
+.login__title{
+    color: #2d385e;
+    font-size: 20px;
+}
+.toggler{
+    color: #da7000 !important;
+    text-decoration: none;
+}
+.toggler:hover{
+    text-decoration: underline;
+    color: #da7000;
+}
+
+form> input{
+    width: 100%;
+    margin: 10px;
+    color: #333333;
+    font-size: 16px;
+    height: 50px;
+    padding: 12px;
+    outline: none;
+    border: 0 none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form > button{
+    color: #fff;
+    /* background: #516cf0; */
+    background: #fe8402;
+    /* border:#516cf0; */
+    border: #fe8402;
+    width: 100%;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+/* form > button:hover{
+    background: #fe8402;
+} */
+
+.about_ev{
+    padding: 70px 0 0 20px; 
+}
+
+.about{
+    color: #da7000;
+}
+
+.about_title{
+    font-size: 45px;
+    color: #4b456f;
+    line-height: 52px;
+    font-weight: 600;
+}
+
+
+p.font-p {
+    color: #656565;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.how_it_works{
+    background: #fe8402;
+    border: #fe8402;
+    padding: 8px 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}

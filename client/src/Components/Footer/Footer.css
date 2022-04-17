@@ -1,0 +1,25 @@
+.footer{
+    background: #3b455a;
+    padding: 60px 0 40px; 
+    color: #fff;
+}
+ul{
+    list-style: none;
+    color: rgba(213, 213, 213, 0.6);
+}
+h5{
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgba(213, 213, 213, 0.6);
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #fff;
+}
