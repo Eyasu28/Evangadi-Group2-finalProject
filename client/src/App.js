@@ -55,7 +55,7 @@ function App() {
   }, []);
   return (
     <Router>
-      <Header />
+      <Header logout={logout}/>
       <div>
         <Routes>
           <Route path="/signup" element={<SignUp />} />

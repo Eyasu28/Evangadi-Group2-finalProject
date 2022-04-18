@@ -82,7 +82,7 @@ const Login = () => {
                 </div>
                 <div className='about_ev col-sm-12 col-md-6'>
                     <small className='about'>About</small>
-                    <h1 className='about_title'>Evangadi Networks</h1>
+                    <h1 className='about_title'>Evangadi Networks Q&A</h1>
                     <p className='font-p mg-bt-30'>
                         No matter what stage of life you are in, whether you’re just starting elementary school or being promoted to CEO of a Fortune 500 company, you have much to offer to those who are trying to follow in your footsteps.
                     </p>

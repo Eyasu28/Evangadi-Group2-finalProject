@@ -1,8 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect,useContext } from 'react'
+import { Link,useNavigate } from 'react-router-dom'
 import './Header.css'
+import { UserContext } from '../../context/UserContext';
 
-function Header() {
+
+function Header({ logout }) {
+    const [userData, setUserData] = useContext(UserContext);
+    const navigate = useNavigate();
+    useEffect(() => {
+        if (!userData.user) navigate("/login");
+    }, [userData.user, navigate]);
   return (
       <div>
         <div className='header'>
@@ -10,15 +17,14 @@ function Header() {
             <div className='container'>
                 <img className='nav-brand' src="https://www.evangadi.com/themes/humans//assets/images/misc/evangadi-logo-home.png" alt="" />
                 <div className='collapse__items'>
-                    <div className='collapse__item'>
-                        Home
-                    </div>
-                    <div className='collapse__item'>
+                    <a className='collapse__item' href='https://www.evangadi.com/'>Home</a>
+                    <a  className='collapse__item' href='https://www.evangadi.com/explained'>
                         How it Works
-                    </div>
-                    <div className='login__button'>
+                    </a>
+                    {/* <a className='login__button'>
                         SIGN IN
-                    </div>
+                    </a> */}
+                    <button onClick={logout} className='login__button'>LogOut</button>
                 </div> 
             </div>
         </div>

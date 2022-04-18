@@ -10,7 +10,7 @@ ul{
 h5{
     margin-left: 30px;
 }
-a{
+.footer_link{
     text-decoration: none;
     color: rgba(213, 213, 213, 0.6);
 }
